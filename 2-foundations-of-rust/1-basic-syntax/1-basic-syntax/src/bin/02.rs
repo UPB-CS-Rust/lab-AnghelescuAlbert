@@ -6,8 +6,13 @@ fn main() {
     }
 }
 
-fn bigger(a: i32, b: i32) -> i32 {
+fn bigger(a: i32, b: i32) -> bool {
     // TODO
+    if (a < b) {
+        false
+    } else {
+        true
+    }
 }
 
 #[cfg(test)]
